@@ -168,3 +168,11 @@
 .MatheusBody {
     background-color: black;
 }
+
+.LeftDiv{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background: #ccc;
+    padding: 10px;
+    }
