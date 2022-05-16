@@ -71,7 +71,7 @@
 .icon2 {
     position: absolute;
     top: 27%;
-    left: 65.5%;
+    left: 40.5%;
     width: 15%;
     height: 30%;
     background-color: #fff;
@@ -93,7 +93,7 @@
 .icon3 {
     position: absolute;
     top: 27%;
-    left: 40.5%;
+    left: 65.5%;
     width: 15%;
     height: 30%;
     background-color: #fff;
@@ -165,7 +165,7 @@
 
 .IndexTxt{
     color: white;
-    font-family: ;
+    font-family: 'Arimo', sans-serif;
 }
 
 .HeaderTxt{
