@@ -1,7 +1,4 @@
-.IndexBody {
-    background: linear-gradient(to top left, #660066 0%, #000000 100%);
-    overflow-y: hidden;
-}
+/*============== Logo & Nome do grupo (flutuante) ==============*/
 
 #g1 {
     color: rgb(149, 88, 178);
@@ -9,7 +6,7 @@
 
 #group {
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(238, 238, 238)
+    -webkit-text-stroke-color: rgb(238, 238, 238);
 }
 
 .header {
@@ -19,7 +16,7 @@
 
 .logoheader {
     position: absolute;
-    top: 1px;
+    top: 2.5%;
     right: 94%;
     width: 7%;
     height: 7%;
@@ -28,26 +25,35 @@
 
 .fontheader {
     position: absolute;
-    bottom: 872px;
-    right: 1627px;
+    top: 1%;
+    bottom: 90%;
+    right: 82%;
+    left: 4.5%;
     font-family: 'Righteous', cursive;
     float: left;
     font-size: 210%;
     color: black;
 }
 
-.icons {
+/*============== Estilo do Index ==============*/
+
+.IndexBody {
+    background: linear-gradient(to top left, #660066 0%, #000000 100%);
+    overflow-y: hidden;
     margin-top: 10%;
-    margin-bottom: 50%;
+    margin-bottom: 70%;
 }
 
+/*=== Icones/Fotos ===*/
+
 .icon1 {
+    position: absolute;
+    top: 27%;
+    left: 15.5%;
     width: 15%;
-    height: 15%;
+    height: 30%;
     background-color: #fff;
     border-radius: 100%;
-    margin-left: 16%;
-    margin-right: 5%;
     cursor: pointer;
     outline: 5px solid;
     outline-color: #9558b2;
@@ -63,12 +69,13 @@
 }
 
 .icon2 {
+    position: absolute;
+    top: 27%;
+    left: 65.5%;
     width: 15%;
-    height: 15%;
+    height: 30%;
     background-color: #fff;
     border-radius: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
     cursor: pointer;
     outline: 5px solid;
     outline-color: #cb3c33;
@@ -84,12 +91,13 @@
 }
 
 .icon3 {
+    position: absolute;
+    top: 27%;
+    left: 40.5%;
     width: 15%;
-    height: 15%;
+    height: 30%;
     background-color: #fff;
     border-radius: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
     cursor: pointer;
     outline: 5px solid;
     outline-color: #389826;
@@ -103,6 +111,8 @@
     border-radius: 100%;
     transform: scale(1.1);
 }
+
+/*=== Nomes, texto e titulo ===*/
 
 .fontCargos {
     font-family: 'Caveat', cursive;
@@ -119,49 +129,59 @@
 
 .name1 {
     position: absolute;
-    bottom: 400px;
-    left: 335px;
+    bottom: 34.7%;
+    left: 17%;
 }
 
 .name2 {
     position: absolute;
-    bottom: 400px;
-    left: 835px;
+    bottom: 34.7%;
+    left: 43.9%;
 }
 
 .name3 {
     position: absolute;
-    bottom: 400px;
-    left: 1290px;
+    bottom: 34.7%;
+    left: 67.5%;
 }
 
 .cargo1 {
     position: absolute;
-    bottom: 360px;
-    left: 390px;
+    bottom: 31%;
+    left: 20%;
 }
 
 .cargo2 {
     position: absolute;
-    bottom: 360px;
-    left: 860px;
+    bottom: 31%;
+    left: 45.3%;
 }
 
 .cargo3 {
     position: absolute;
-    bottom: 360px;
-    left: 1340px;
+    bottom: 31%;
+    left: 70%;
+}
+
+.IndexTxt{
+    color: white;
+    font-family: ;
+}
+
+.HeaderTxt{
+    position: absolute;
+    top: 13%;
+    margin-left: 38.5%;
+    font-size: 250%;
 }
 
 .BaseboardTxt {
     position: absolute;
-    top: 650px;
+    bottom: 20%;
     margin-left: 20%;
     margin-right: 20%;
     font-size: 150%;
-    color: white;
 }
-
 
 /*============== Curriculo Matheus ==============*/
 
