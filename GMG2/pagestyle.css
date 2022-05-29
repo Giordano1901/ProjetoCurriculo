@@ -1,0 +1,272 @@
+/*============== Estilo do Index ==============*/
+/*==============
+Index Header, logo, fundo e estilo básico
+==============*/
+/*Cor e fundo*/
+.IndexBG
+{
+    background: #262d4f;
+    max-width: 1660px;
+    overflow: hidden;
+}
+/*Logo e nome (Imagem e Texto)*/
+.HeaderLogo
+{
+    width: 20%;
+    height: 100%;
+    transition: all 350ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.HeaderLogo:hover
+{
+    width: 25%;
+}
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+}
+/*==============
+Index cards, descrições e estilo avançado
+==============*/
+/*Icones, cargos, hrefs, etc*/
+.Sobre
+{
+    font-size: 100%;
+    color: white;
+    margin: 0%;
+}
+/*Card do Emiliano*/
+.divEmiliano
+{
+    position: absolute;
+    left: 7%;
+    bottom: 16%;
+    box-sizing: border-box;
+    width: 290px;
+    height: 380px;
+    border: black solid 2px;
+    border-left: #389826 7px solid;
+    padding: 7px;
+    background-color: #2f2f3e;
+    transition: all 550ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.divEmiliano:hover
+{
+    outline-offset: 50px;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.686) 0px 20px 30px;
+}
+.iconEmiliano
+{
+    width: 260px;
+    height: 260px;
+}
+/*Card do Matheus*/
+.divMatheus
+{
+    position: absolute;
+    left: 37%;
+    bottom: 16%;
+    box-sizing: border-box;
+    width: 290px;
+    height: 380px;
+    border: black solid 2px;
+    border-left: #cb3c33 7px solid;
+    padding: 7px;
+    background-color: #2f2f3e;
+    transition: all 550ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.divMatheus:hover
+{
+    outline-offset: 50px;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.686) 0px 20px 30px;
+}
+/*Card do Giordano*/
+.divGiordano
+{
+    position: absolute;
+    left: 67%;
+    bottom: 16%;
+    box-sizing: border-box;
+    width: 290px;
+    height: 380px;
+    border: black solid 2px;
+    border-left: #9558b2 7px solid;
+    padding: 7px;
+    background-color: #2f2f3e;
+    transition: all 550ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.divGiordano:hover
+{
+    outline-offset: 50px;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.686) 0px 20px 30px;
+}
+/*Fontes para os cards em geral*/
+.fontNomes
+{
+    border-top: 2px solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-size: 200%;
+    margin: 0%;
+}
+.fontCargos
+{
+    font-family: 'Caveat', cursive;
+    color: #fff;
+    font-size: 150%;
+    margin: 0%;
+}
+/*Descrição do grupo, textos gerais*/
+.divDesc1
+{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: #121524;
+}
+.divDesc2
+{
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    width: 49%;
+    height: 5%;
+    transition: all 350ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.divDesc2:hover
+{
+    transform: scale(1.3);
+}
+.fontDesc
+{
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size: 130%;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+/*============== Estilo dos curriculos em si ==============*/
+.CurriculoLogo
+{
+    padding: 4px;
+    width: 4%;
+    height: 90%;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.CurriculoLogo:hover
+{
+    padding: 0px;
+    width: 6%;
+    height: 100%;
+}
+/*==============
+Curriculo do Gustavo Emiliano
+==============*/
+/*==============
+logo, fundo e estilo básico
+==============*/
+/*Cor e fundo*/
+.CurriculoBG
+{
+    background: #262d4f;
+    overflow-x: hidden;
+}
+/*Logo, nomes e header de navegação*/
+.HeaderPageEmiliano
+{
+    width: 1600px;
+    height: 10%;
+    position: fixed;
+    left: 0%;
+    top:0%;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.HeaderPageEmiliano:hover
+{
+    height: 15%;
+    background-color: #389826;
+}
+li
+{
+    margin-left: 50px;
+    display: inline-block;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+li:hover
+{   
+    transform: scale(1.3);
+}
+.HeaderTxt
+{
+    position: inherit;
+    top: 0px;
+    left: 5%;
+    font-size: 150%;
+    color: white;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.HeaderTxt:hover
+{
+    
+    padding: 10px;
+}
+
+/*==============
+Itens da pagina, descrições, fotos e icones
+==============*/
+
+
+/*==============
+Curriculo do Matheus Sato
+==============*/
+/*==============
+logo, fundo e estilo básico
+==============*/
+/*Logo, nomes e header de navegação*/
+.HeaderPageMatheus
+{
+    width: 1600px;
+    height: 10%;
+    position: fixed;
+    left: 0%;
+    top:0%;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.HeaderPageMatheus:hover
+{
+    height: 15%;
+    background-color: #cb3c33;
+}
+/*==============
+Curriculo do Gustavo Giordano
+==============*/
+.HeaderPageGiordano
+{
+    width: 1600px;
+    height: 10%;
+    position: fixed;
+    left: 0%;
+    top:0%;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.HeaderPageGiordano:hover
+{
+    height: 15%;
+    background-color: #9558b2;
+}
