@@ -6,7 +6,7 @@ Index Header, logo, fundo e estilo básico
 .IndexBG
 {
     background: rgb(175,175,175);
-    background: radial-gradient(circle, rgba(175,175,175,1) 0%, rgba(88,88,88,1) 100%);
+    background: radial-gradient(circle, #afafaf 0%, #585858 100%);
     max-width: 1660px;
     overflow: hidden;
 }
@@ -149,6 +149,7 @@ Index cards, descrições e estilo avançado
 }
 .iconEmiliano
 {
+    border-radius: 100%;
     margin-top: 3px;
     margin-left: 4px;
     width: 280px;
@@ -160,7 +161,7 @@ Index cards, descrições e estilo avançado
     margin-left: 4px;
     width: 280px;
     height: 280px;
-    border-radius: 10%;
+    border-radius: 100%;
 }
 .iconGiordano
 {
@@ -296,29 +297,19 @@ logo, fundo e estilo básico
 /*Logo, nomes e header de navegação*/
 .HeaderPageEmiliano
 {
-    width: 1600px;
+    width: 1900px;
     height: 10%;
-    position: fixed;
+    position: absolute;
     left: 0%;
     top:0%;
+    background-color: #389826;
     flex-direction: row;
     justify-content: space-between;
     transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .HeaderPageEmiliano:hover
 {
-    height: 15%;
-    background-color: #389826;
-}
-li
-{
-    margin-left: 120px;
-    display: inline-block;
-    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
-}
-li:hover
-{   
-    transform: scale(1.3);
+    height: 12%;
 }
 .HeaderTxt
 {
@@ -355,17 +346,17 @@ logo, fundo e estilo básico
 {
     width: 1600px;
     height: 10%;
-    position: fixed;
+    position: absolute;
     left: 0%;
     top:0%;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #cb3c33;
     transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .HeaderPageMatheus:hover
 {
-    height: 15%;
-    background-color: #cb3c33;
+    height: 12%;
 }
 /*==============
 Itens, sessões e descrições
@@ -379,7 +370,7 @@ Itens, sessões e descrições
 {
     position: absolute;
     left: 8%;
-    top: 15%;
+    top: 30%;
     font-size: 220%;
     transition: all 150ms cubic-bezier(0.2, 0, 0, 0.8);
 }
@@ -418,11 +409,80 @@ Itens, sessões e descrições
 {
     position: absolute;
     width: 37%;
-    top: 42%;
+    top: 55%;
     left: 8%;
     transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .SobreMim:hover
+{
+    transform: scale(1.1);
+}
+.Form 
+{
+    position: absolute;
+    top: 99%;
+    left: 8%;
+    height: 45.5%;
+    margin-right: 50%;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.Form:hover
+{
+    transform: scale(1.1);
+}
+.vercel
+{
+    position: absolute;
+    top: 100%;
+    left: 55%;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.vercel:hover
+{
+    transform: scale(1.1);
+}
+.Exp
+{
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    margin-right: 10%;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+    }
+.Exp:hover
+{
+    transform: scale(1.1);
+}
+.Skills
+{
+    position: absolute;
+    top: 200%;
+    left: 8%;
+    margin-right: 50%;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.Skills:hover
 {
     transform: scale(1.1);
 }
@@ -446,6 +506,17 @@ Itens, sessões e descrições
     transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .Gmail:hover
+{
+    transform: scale(1.3);
+}
+.Outlook
+{
+    position: absolute;
+    left: 57%;
+    top: 92%;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.Outlook:hover
 {
     transform: scale(1.3);
 }
@@ -496,6 +567,12 @@ Itens, sessões e descrições
     font-size: 120%;
     color: white;   
 }
+.InfosTitle2
+{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
 .fontInfos
 {
     font-size: 110%;
@@ -511,14 +588,14 @@ Curriculo do Gustavo Giordano
     position: fixed;
     left: 0%;
     top:0%;
+    background-color: #9558b2;
     flex-direction: row;
     justify-content: space-between;
     transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .HeaderPageGiordano:hover
 {
-    height: 15%;
-    background-color: #9558b2;
+    height: 12%;
 }
 /*Separações, localidade e divisões*/
 .FrontGiordano
