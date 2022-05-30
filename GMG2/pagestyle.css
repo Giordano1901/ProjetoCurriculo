@@ -5,7 +5,8 @@ Index Header, logo, fundo e estilo básico
 /*Cor e fundo*/
 .IndexBG
 {
-    background: #262d4f;
+    background: rgb(175,175,175);
+    background: radial-gradient(circle, rgba(175,175,175,1) 0%, rgba(88,88,88,1) 100%);
     max-width: 1660px;
     overflow: hidden;
 }
@@ -32,11 +33,95 @@ a:hover {
 Index cards, descrições e estilo avançado
 ==============*/
 /*Icones, cargos, hrefs, etc*/
-.Sobre
+.SobreEmiliano
 {
+    text-align: center;
     font-size: 100%;
     color: white;
-    margin: 0%;
+    margin: 2%;
+    margin-left: 65px;
+    z-index: 1;
+    backdrop-filter: blur(115px);
+    background-color: #37982683;
+    border: 2px solid #111;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    width: 160px;
+    height: 30px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 0.25px;
+    transition: all 350ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.SobreEmiliano:hover
+{
+    background-color: #389826;
+    transform: scale(1.2);
+}
+.SobreMatheus
+{
+    text-align: center;
+    font-size: 100%;
+    color: white;
+    margin: 2%;
+    margin-left: 65px;
+    z-index: 1;
+    backdrop-filter: blur(115px);
+    background-color: #cb3d3389;
+    border: 2px solid #111;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    width: 160px;
+    height: 30px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 0.25px;
+    transition: all 350ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.SobreMatheus:hover
+{
+    background-color: #cb3c33;
+    transform: scale(1.2);
+}
+.SobreGiordano
+{
+    text-align: center;
+    font-size: 100%;
+    color: white;
+    margin: 2%;
+    margin-left: 65px;
+    z-index: 1;
+    backdrop-filter: blur(115px);
+    background-color: #9558b296;
+    border: 2px solid #111;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    width: 160px;
+    height: 30px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 0.25px;
+    transition: all 350ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.SobreGiordano:hover
+{
+    background-color: #9558b2;
+    transform: scale(1.2);
 }
 /*Card do Emiliano*/
 .divEmiliano
@@ -46,12 +131,15 @@ Index cards, descrições e estilo avançado
     bottom: 16%;
     box-sizing: border-box;
     width: 290px;
-    height: 380px;
-    border: black solid 2px;
-    border-left: #389826 7px solid;
-    padding: 7px;
-    background-color: #2f2f3e;
-    transition: all 550ms cubic-bezier(0.2, 0, 0, 0.8);
+    height: 400px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: all 350ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .divEmiliano:hover
 {
@@ -61,8 +149,25 @@ Index cards, descrições e estilo avançado
 }
 .iconEmiliano
 {
-    width: 260px;
-    height: 260px;
+    margin-top: 3px;
+    margin-left: 4px;
+    width: 280px;
+    height: 280px;
+}
+.iconMatheus
+{
+    margin-top: 3px;
+    margin-left: 4px;
+    width: 280px;
+    height: 280px;
+    border-radius: 10%;
+}
+.iconGiordano
+{
+    margin-top: 3px;
+    margin-left: 4px;
+    width: 280px;
+    height: 280px;
 }
 /*Card do Matheus*/
 .divMatheus
@@ -72,12 +177,15 @@ Index cards, descrições e estilo avançado
     bottom: 16%;
     box-sizing: border-box;
     width: 290px;
-    height: 380px;
-    border: black solid 2px;
-    border-left: #cb3c33 7px solid;
-    padding: 7px;
-    background-color: #2f2f3e;
-    transition: all 550ms cubic-bezier(0.2, 0, 0, 0.8);
+    height: 400px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: all 350ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .divMatheus:hover
 {
@@ -93,12 +201,15 @@ Index cards, descrições e estilo avançado
     bottom: 16%;
     box-sizing: border-box;
     width: 290px;
-    height: 380px;
-    border: black solid 2px;
-    border-left: #9558b2 7px solid;
-    padding: 7px;
-    background-color: #2f2f3e;
-    transition: all 550ms cubic-bezier(0.2, 0, 0, 0.8);
+    height: 400px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: all 350ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .divGiordano:hover
 {
@@ -109,7 +220,7 @@ Index cards, descrições e estilo avançado
 /*Fontes para os cards em geral*/
 .fontNomes
 {
-    border-top: 2px solid black;
+    text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
     font-size: 200%;
@@ -117,6 +228,7 @@ Index cards, descrições e estilo avançado
 }
 .fontCargos
 {
+    text-align: center;
     font-family: 'Caveat', cursive;
     color: #fff;
     font-size: 150%;
@@ -130,7 +242,6 @@ Index cards, descrições e estilo avançado
     left: 0%;
     width: 100%;
     height: 10%;
-    background-color: #121524;
 }
 .divDesc2
 {
@@ -178,7 +289,8 @@ logo, fundo e estilo básico
 /*Cor e fundo*/
 .CurriculoBG
 {
-    background: #262d4f;
+    background: rgb(175,175,175);
+    background: radial-gradient(circle, rgba(175,175,175,1) 0%, rgba(88,88,88,1) 100%);
     overflow-x: hidden;
 }
 /*Logo, nomes e header de navegação*/
@@ -200,7 +312,7 @@ logo, fundo e estilo básico
 }
 li
 {
-    margin-left: 50px;
+    margin-left: 120px;
     display: inline-block;
     transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
 }
@@ -210,7 +322,7 @@ li:hover
 }
 .HeaderTxt
 {
-    position: inherit;
+    position: absolute;
     top: 0px;
     left: 5%;
     font-size: 150%;
@@ -226,7 +338,11 @@ li:hover
 /*==============
 Itens da pagina, descrições, fotos e icones
 ==============*/
-
+.FrontEmiliano
+{
+    color: #389826;
+    margin: 0%;
+}
 
 /*==============
 Curriculo do Matheus Sato
@@ -252,6 +368,140 @@ logo, fundo e estilo básico
     background-color: #cb3c33;
 }
 /*==============
+Itens, sessões e descrições
+==============*/
+/*Separações, localidade e divisões*/
+#Sobre
+{
+    margin-top: 5%;
+}
+.DivTitle
+{
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    font-size: 220%;
+    transition: all 150ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.DivTitle:hover
+{
+    transform: scale(1.2);
+}
+.CurriculoFoto
+{
+    position: absolute;
+    top: 23.2%;
+    left: 20%;
+    width: 65%;
+    border-radius: 20%;
+}
+.CardMatheus
+{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.CardMatheus:hover
+{
+    transform: scale(1.1);
+}
+.SobreMim
+{
+    position: absolute;
+    width: 37%;
+    top: 42%;
+    left: 8%;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.SobreMim:hover
+{
+    transform: scale(1.1);
+}
+/*Botões Redes Sociais*/
+.Linkedin
+{
+    position: absolute;
+    left: 50%; 
+    top: 92%;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.Linkedin:hover
+{
+    transform: scale(1.3);
+}
+.Gmail
+{
+    position: absolute;
+    left: 61%; 
+    top: 92%;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.Gmail:hover
+{
+    transform: scale(1.3);
+}
+.Github
+{
+    position: absolute;
+    left: 71%; 
+    top: 92%;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.Github:hover
+{
+    transform: scale(1.3);
+}
+.WhatsApp
+{
+    position: absolute;
+    left: 81%; 
+    top: 92%;
+    transition: all 250ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.WhatsApp:hover
+{
+    transform: scale(1.3);
+}
+/*Escrita*/
+.FrontMatheus
+{
+    color: #cb3c33;
+    margin: 0%;
+}
+.Dev
+{
+    margin: 0%;
+    color: #fff;
+}
+.CurriculoName
+{
+    position: absolute;
+    bottom: 72%;
+    left: 20%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 290%;
+}
+.InfosTitle
+{
+    font-size: 120%;
+    color: white;   
+}
+.fontInfos
+{
+    font-size: 110%;
+    color: white;
+}
+/*==============
 Curriculo do Gustavo Giordano
 ==============*/
 .HeaderPageGiordano
@@ -269,4 +519,10 @@ Curriculo do Gustavo Giordano
 {
     height: 15%;
     background-color: #9558b2;
+}
+/*Separações, localidade e divisões*/
+.FrontGiordano
+{
+    color: #9558b2;
+    margin: 0%;
 }
