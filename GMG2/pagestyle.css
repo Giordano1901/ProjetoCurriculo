@@ -169,6 +169,7 @@ Index cards, descrições e estilo avançado
     margin-left: 4px;
     width: 280px;
     height: 280px;
+    border-radius: 100%;
 }
 /*Card do Matheus*/
 .divMatheus
@@ -585,7 +586,7 @@ Curriculo do Gustavo Giordano
 {
     width: 1600px;
     height: 10%;
-    position: fixed;
+    position: absolute;
     left: 0%;
     top:0%;
     background-color: #9558b2;
